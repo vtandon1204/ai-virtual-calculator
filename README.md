@@ -1,7 +1,7 @@
 # 🧮 AI Calculator
 
 ## 📝 Overview
-The **AI Calculator** is an innovative project that utilizes OpenCV and Google’s Gemini AI to solve mathematical problems. Users can draw mathematical expressions directly on the screen, and the AI model will interpret the input to provide accurate and detailed solutions. This project uses advanced AI and computer vision technologies to enhance user interaction and calculation accuracy.
+The **AI Calculator** is an innovative project, making use of OpenCV and Google's Gemini AI to solve mathematical problems. Users can draw expressions on the screen, which the AI model will interpret accordingly and provide accurate and detailed solutions. It incorporates advanced AI and computer vision technologies for enhanced user interaction and accuracy in calculations.
 
 ## ✨ Features
 - **Draw Math Problems** ✍️: Draw mathematical expressions directly on the screen.
