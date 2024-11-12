@@ -58,4 +58,5 @@ I welcome contributions to improve this project. Feel free to open issues or sub
 
 ## 📜 License
 
-This project is licensed under the MIT License. See the LICENSE file for more information.
+This project is licensed under the **MIT License**. See the [LICENSE](https://github.com/vtandon1204/ai-virtual-calculator/blob/main/LICENSE) file for more information.
+
