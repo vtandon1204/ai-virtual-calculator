@@ -33,13 +33,13 @@ The **AI Calculator** is an innovative project that utilizes OpenCV and Googleâ€
 3. **Configure the API Key**:
    - Create a `.env` file and add your API key in the file.
 
-5. **Run the Application**:
+4. **Run the Application**:
    - Start the Django web server:
      ```bash
-     python manage.py runserver
+     python app.py runserver
      ```
 
-6. **Access the Application**:
+5. **Access the Application**:
    - Open a web browser and navigate to [http://127.0.0.1:8000](http://127.0.0.1:8000) to access and use the calculator.
 
 ## ðŸŽ¨ Interaction Guide
