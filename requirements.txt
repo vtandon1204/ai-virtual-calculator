@@ -4,5 +4,5 @@ numpy
 Pillow
 google-generativeai
 cvzone
-dotenv
+python-dotenv
 mediapipe
