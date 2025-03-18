@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-k39em7wc58+*nm#y&f4&7!*02d75#+47(eike1$qx(x0t%#z9^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -123,7 +123,6 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # Ensure BASE_DIR is defined
-STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
