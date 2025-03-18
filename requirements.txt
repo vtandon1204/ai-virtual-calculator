@@ -6,3 +6,4 @@ google-generativeai
 cvzone
 python-dotenv
 mediapipe
+django

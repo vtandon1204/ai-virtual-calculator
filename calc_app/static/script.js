@@ -1,12 +1,17 @@
-function fetchResponse() {
-    fetch('/get_response')
-        .then(response => response.json())
-        .then(data => {
-            if (data.response) {
-                document.getElementById('response').innerHTML = '<h2>Answer:</h2><p>' + data.response + '</p>';
-            }
-        })
-        .catch(error => console.error('Error fetching response:', error));
+async function fetchResponse() {
+    try {
+        const response = await fetch('/get_response');
+        const data = await response.json();
+        
+        if (data.response) {
+            const responseElement = document.getElementById('response');
+            responseElement.innerHTML = `<p>${data.response}</p>`;
+            responseElement.style.opacity = '1';  // Fade in the new response
+        }
+    } catch (error) {
+        console.error('Error fetching response:', error);
+    }
 }
 
-setInterval(fetchResponse, 1000);  // Fetch response every second
+// Fetch response every second with smooth UI update
+setInterval(fetchResponse, 1000);
